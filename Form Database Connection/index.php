@@ -58,17 +58,17 @@
             </div>
              -->
 
+            
+            <!-- Button for read all data from the database table  -->
+            <?php
+               
+                $targetUrl = 'read.php';
+                echo '<a href="' . $targetUrl . '" style="display: inline-block; padding: 10px 20px; font-size: 16px; text-align: center; text-decoration: none; cursor: pointer; background-color: #4CAF50; color: white; border: none; border-radius: 5px;">Display all data from database</a>';
+    
+             ?>
 
-             <div id="contentContainer">
-        <!-- Your button and script inside a single div -->
-        <button onclick="redirectToTarget()">Read all from database</button>
 
-        <script>
-            function redirectToTarget() {
-                window.location.href = 'read.php';
-            }
-        </script>
-    </div>
+
 
 
             <div class="item-5">
